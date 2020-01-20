@@ -1,7 +1,11 @@
 import axios from 'axios';
 
-const api = axios.create({
+/* const api = axios.create({
   baseURL: "http://localhost:3333"
+}); */
+
+const api = axios.create({
+  baseURL: "https://semana-omnistack-10.herokuapp.com/devs"
 });
 
 export default api;
