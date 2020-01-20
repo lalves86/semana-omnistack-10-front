@@ -6,8 +6,8 @@ import DevForm from './components/DevForm';
 
 // Estilizações
 import './global.css';
-import './app.css';
 import './sidebar.css';
+import './app.css';
 import './main.css';
 
 function App () {
